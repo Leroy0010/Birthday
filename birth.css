@@ -55,3 +55,7 @@ footer > p {
 .btn:hover {
     color: #6FF1B0;
 }
+
+a {
+    text-decoration: none;
+}
