@@ -15,6 +15,10 @@ $(".btn").on("click", function () {
     } 
     else if(playing) {
             sound.pause();
+            $('.btn').addClass("pressed");
+            setTimeout(function () {
+                $(".btn").removeClass("pressed");
+            }, 500);
             $(".btn").text("Play Song");
             playing = false;
   
